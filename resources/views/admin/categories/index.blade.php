@@ -15,7 +15,7 @@
 					<th>
 						Category Name
 					</th>
-					@if(Auth::user()->admin === 1)
+					@if(Auth::user()->admin === TRUE)
 						<th>
 							Edit
 						</th>

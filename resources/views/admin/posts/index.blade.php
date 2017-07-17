@@ -33,7 +33,7 @@
 				</thead>
 				<tbody>
 
-				@if(Auth::user()->admin === 1)
+				@if(Auth::user()->admin === TRUE)
 
 					@foreach($post_admin as $posts_admin)
 						
