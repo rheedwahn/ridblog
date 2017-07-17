@@ -5,7 +5,7 @@
             <div class="header-content-wrapper">
                 <div class="logo">
                     <div class="logo-text">
-                        <div class="logo-title"><a href="{{ route('home.frontpage') }}"><img src="{{ asset($setting->site_logo) }}" alt="{{ $setting->site_name }}"></a></div>
+                        <div class="logo-title"><a href="{{ route('home.frontpage') }}"></a></div>
                     </div>
                 </div>
 
