@@ -31,7 +31,7 @@ class PostsController extends Controller
 
         $post_user = Post::where('user_id', Auth::user()->id)->get();
 
-        if(Auth::user()->admin === 1)
+        if(Auth::user()->admin === TRUE)
         {
             if($posts->count() === 0)
             {
@@ -227,7 +227,7 @@ class PostsController extends Controller
 
         $user = User::onlyTrashed()->get();
 
-        if(Auth::user()->admin === 1)
+        if(Auth::user()->admin === TRUE)
         {
             if($post_admin->count() === 0)
             {

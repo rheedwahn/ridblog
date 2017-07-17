@@ -33,10 +33,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if(Auth::user()->admin === 1)
+        if(Auth::user()->admin === TRUE)
         {
             return view('home')->with('user_count', User::where('admin', 0)->get()->count())
-                           ->with('admin_count', User::where('admin', 1)->get()->count())
+                           ->with('admin_count', User::where('admin', TRUE)->get()->count())
                            ->with('category_count', Category::all()->count())
                            ->with('post_count', Post::all()->count())
                            ->with('trashed_count', Post::onlyTrashed()->get()->count())

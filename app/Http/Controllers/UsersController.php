@@ -183,7 +183,7 @@ class UsersController extends Controller
     {
         $user = User::find($id);
 
-        $user->admin = 1;
+        $user->admin = TRUE;
 
         $user->save();
 
@@ -196,7 +196,7 @@ class UsersController extends Controller
     {
         $user = User::find($id);
 
-        $user->admin = 0;
+        $user->admin = FALSE;
 
         $user->save();
 
