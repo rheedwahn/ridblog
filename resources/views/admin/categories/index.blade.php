@@ -31,7 +31,7 @@
 							<td>
 								{{ $category->name }}
 							</td>
-							@if(Auth::user()->admin === 1)
+							@if(Auth::user()->admin === TRUE)
 								<td>
 									<a href="{{ route('category.edit', ['id'=>$category->id]) }}" class="btn btn-primary">Edit</a>
 								</td>
