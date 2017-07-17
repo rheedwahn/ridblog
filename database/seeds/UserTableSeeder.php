@@ -20,7 +20,7 @@ class UserTableSeeder extends Seeder
 
         App\Profile::create([
             'user_id' => $user->id,
-            'avater' => 'uploads/profile/admin.jpg',
+            'avater' => 'uploads/default/admin.jpg',
             'about' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
