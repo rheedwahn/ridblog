@@ -71,7 +71,7 @@
                 <div class="blog-details-author">
 
                     <div class="blog-details-author-thumb">
-                        <img src="{{ asset($posts->user->profile->avater) }}" alt="{{ $posts->user->name }}">
+                        <img src="{{ asset($posts->user->profile->avater) }}" class="img-responsive" alt="{{ $posts->user->name }}">
                     </div>
 
                     <div class="blog-details-author-content">
