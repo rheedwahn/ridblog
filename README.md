@@ -6,4 +6,4 @@ admin http://rheedblod.herokuapp.com/login
 
 email = test@gmail.com
 
-password = testing123
+password = password
