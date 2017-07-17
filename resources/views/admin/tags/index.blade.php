@@ -31,7 +31,7 @@
 							<td>
 								{{ $tags->tag }}
 							</td>
-							@if(Auth::user()->admin === 1)
+							@if(Auth::user()->admin === TRUE)
 								<td>
 									<a href="{{ route('tag.edit', ['id'=>$tags->id]) }}" class="btn btn-primary">Edit</a>
 								</td>

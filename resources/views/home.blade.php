@@ -48,7 +48,7 @@
 			</div>
 		</div>
 	</div>
-@if(Auth::user()->admin === 1)
+@if(Auth::user()->admin === TRUE)
 	<div class="col-lg-4">
 		<div class="panel panel-success">
 			<div class="panel-heading text-center">
@@ -72,6 +72,7 @@
 	</div>
 
 @endif
+
 </div>
 
 @endsection
