@@ -1,8 +1,8 @@
 # RHEEDtech blog
 
-visit at rheedblod.herokuapp.com
+visit at http://rheedblod.herokuapp.com
 
-admin rheedblod.herokuapp.com/admin/login
+admin http://rheedblod.herokuapp.com/admin/login
 
 email = test@gmail.com
 
